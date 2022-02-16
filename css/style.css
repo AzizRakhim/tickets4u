@@ -1,4 +1,156 @@
 body{
-    background-color: #fff;
+    background: linear-gradient(120deg, rgba(218, 225, 244, 1) 55%, rgba(168, 181, 200, 1) 55%);
     min-height: 100vh;
+}
+
+#flight{
+    padding: 40px 0;
+}
+
+.flight__best{
+    background-color: #F3F6FD;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.flight__logo-box img{
+    width: 150px;
+    height: 50px;
+}
+
+.flight__search{
+    background-color: #E9F0FA;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.navbar .btn{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+    transition: all 0.4s ease;
+    font-size: 14px;
+}
+
+.navbar .btn.active{
+    background-color: green;
+}
+
+.navbar .btn:hover{
+    color: #fff;
+    background-color: green;
+}
+
+.navbar .btn .bx{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+button:focus:not(:focus-visible){
+    outline: none !important;
+}
+
+.flight__date:first-child{
+    padding-right: 15px !important;
+}
+
+.flight__num{
+    margin-left: 44px !important;
+}
+
+.input-group-text{
+    background-color: #fff;
+}
+
+.flight__search{
+    padding-left: 30px;
+}
+
+.search__minute{
+    color: rgb(92, 88, 88);
+}
+
+.s-btn{
+    padding: 5px 16px !important;
+    border-radius: 16PX;
+    color: rgb(92, 88, 88);
+    background-color: #FFF;
+    border: none;
+}
+
+.s-btn.active{
+    background-color: rgb(1, 1, 14);
+}
+
+.search__list{
+    list-style: none;
+}
+
+.search__item{
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.content__depart{
+    font-size: 14px;
+    color: rgb(92, 88, 88);
+}
+
+.content__time{
+    font-size: 16px;
+    color: rgb(92, 88, 88);
+}
+
+.contact__date{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content__dots{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.d{
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.content__duration{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.content__stops{
+    color: #fff;
+    font-size: 12px;
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.search__price-box{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.search__price{
+    display: block;
+    font-size: 16px;
+    color: rgb(92, 88, 88);
+}
+
+.search__money{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
 }
