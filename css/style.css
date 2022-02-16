@@ -58,11 +58,28 @@ button:focus:not(:focus-visible){
 }
 
 .flight__num{
-    margin-left: 44px !important;
+    padding-left: 15px;
+}
+
+.flight__num .cc{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.flight__num input{
+    padding: 3.9px 5px;
+    margin: 0 !important; 
 }
 
 .input-group-text{
     background-color: #fff;
+}
+
+.flight__title{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .flight__search{
@@ -79,10 +96,11 @@ button:focus:not(:focus-visible){
     color: rgb(92, 88, 88);
     background-color: #FFF;
     border: none;
+    font-size: 14px;
 }
 
 .s-btn.active{
-    background-color: rgb(1, 1, 14);
+    background-color: blue;
 }
 
 .search__list{
@@ -153,4 +171,41 @@ button:focus:not(:focus-visible){
     display: block;
     font-size: 24px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1200px){
+    .navbar .btn{
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar form{
+        justify-content: center !important;
+    }
+
+    .navbar .btn{
+        margin: 0 10px;
+    }
+
+    .flight{
+        flex-direction: column;
+    }
+
+    .flight__best{
+        border-radius: 0;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .flight__search{
+        border-radius: 0;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .page-g{
+        justify-content: center;
+    }
 }

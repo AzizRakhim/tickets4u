@@ -17,7 +17,7 @@
     <section id="flight">
         <div class="container">
             <div class="flight d-flex">
-                <div class="flight__best col-4">
+                <div class="flight__best col-12 col-lg-4">
                     <div class="flight__logo-box px-3 py-4">
                         <a class="flight__logo-link" href="#">
                             <img class="flight__logo-img" src="https://tickets4u.co.ke/HOME/assets/images/logo.png"
@@ -44,13 +44,13 @@
                             </button>
                         </form>
                     </nav>
-                    <h2 class="flight__title mb-3 px-3 py-3">
+                    <h2 class="flight__title mb-3 px-3 py-0">
                         Best flight deals with
                         <span class="flight__title--bold text-primary fw-bold">
                             Ticket4U
                         </span>
                     </h2>
-                    <form action="#" class="px-3 py-3">
+                    <form action="#" class="px-3 py-0">
                         <div class="flight__depart">
                             <label class="mb-2" for="flight__label">Depart from</label>
                             <div class="input-group mb-3">
@@ -82,7 +82,7 @@
                                 <input class="flight__input w-100" type="date" id="flight__return" name="birthday">
                             </div>
                         </div>
-                        <div class="flight__selection-wrapper d-flex mb-5">
+                        <div class="flight__selection-wrapper d-flex mb-4">
                             <div class="flight__selection col-8">
                                 <label class="mb-2" for="flight__select-label">Class</label>
                                 <select class="form-select" aria-label="Default select example"
@@ -94,15 +94,17 @@
                                 </select>
                             </div>
                             <div class="flight__num col-4">
-                                <label class="mb-2" for="flight__num-label">Passengers</label>
-                                <input type="number" id="flight__num-label" placeholder="2" name="passengers" min="1"
-                                    max="100">
+                                <div class="cc">
+                                    <label class="mb-2" for="flight__num-label">Passengers</label>
+                                    <input type="number" id="flight__num-label" placeholder="2" name="passengers" min="1"
+                                        max="100">
+                                </div>
                             </div>
                         </div>
                         <button class="btn btn-primary w-100" type="submit">FIND FLIGHT</button>
                     </form>
                 </div>
-                <div class="flight__search search col-8 px-4 py-4">
+                <div class="flight__search search col-12 col-lg-8 px-4 py-4">
                     <div class="flight__result-box d-flex justify-content-between mb-3">
                         <div class="flight__results">
                             <h3 class="search__title mb-2">
@@ -126,7 +128,7 @@
                         New York
                     </p>
                     <ul class="search__list p-0">
-                        <li class="search__item col-12 d-flex px-3 py-3 w-100 mb-4">
+                        <li class="search__item col-12 d-flex px-3 py-0 w-100 mb-2">
                             <div class="search__img-box col-3">
                                 <img src="images/airway.jpg" alt="airways" width="100" height="100">
                             </div>
@@ -179,7 +181,7 @@
                                 </span>
                             </div>
                         </li>
-                        <li class="search__item col-12 d-flex px-3 py-3 w-100 mb-4">
+                        <li class="search__item col-12 d-flex px-3 py-0 w-100 mb-2">
                             <div class="search__img-box col-3">
                                 <img src="images/airway.jpg" alt="airways" width="100" height="100">
                             </div>
@@ -232,7 +234,7 @@
                                 </span>
                             </div>
                         </li>
-                        <li class="search__item col-12 d-flex px-3 py-3 w-100 mb-4">
+                        <li class="search__item col-12 d-flex px-3 py-0 w-100 mb-2">
                             <div class="search__img-box col-3">
                                 <img src="images/airway.jpg" alt="airways" width="100" height="100">
                             </div>
@@ -285,7 +287,7 @@
                                 </span>
                             </div>
                         </li>
-                        <li class="search__item col-12 d-flex px-3 py-3 w-100 mb-4">
+                        <li class="search__item col-12 d-flex px-3 py-0 w-100 mb-4">
                             <div class="search__img-box col-3">
                                 <img src="images/airway.jpg" alt="airways" width="100" height="100">
                             </div>
@@ -339,7 +341,7 @@
                             </div>
                         </li>
                     </ul>
-                    <nav aria-label="Page navigation example">
+                    <nav aria-label="Page navigation example page-g">
                         <ul class="pagination">
                           <li class="page-item">
                             <a class="page-link" href="#" aria-label="Previous">
